@@ -1,0 +1,345 @@
+/* ====================================
+   ABOUT BANNER
+==================================== */
+
+.about-banner{
+
+    text-align:center;
+
+    padding:120px 20px 80px;
+}
+
+.page-tag{
+
+    color:var(--accent-cyan);
+
+    letter-spacing:3px;
+
+    font-size:0.9rem;
+
+    margin-bottom:20px;
+}
+
+.banner-content h1{
+
+    font-size:4rem;
+
+    margin-bottom:25px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #ffffff,
+        #22D3EE
+    );
+
+    background-clip:text;
+
+    color:transparent;
+}
+
+.banner-description{
+
+    max-width:800px;
+
+    margin:auto;
+
+    color:var(--text-secondary);
+
+    line-height:1.9;
+
+    font-size:1.1rem;
+}
+
+/* ====================================
+   BIOGRAPHY
+==================================== */
+
+.biography{
+
+    max-width:900px;
+
+    margin:100px auto 0;
+}
+
+.bio-content{
+
+    background:var(--bg-card);
+
+    border:
+    1px solid var(--border-secondary);
+
+    padding:40px;
+
+    border-radius:20px;
+}
+
+.bio-content p{
+
+    color:var(--text-secondary);
+
+    line-height:2;
+
+    margin-bottom:20px;
+}
+
+/* ====================================
+   EDUCATION
+==================================== */
+
+.education-card{
+
+    background:var(--bg-card);
+
+    border-left:
+    5px solid var(--accent-cyan);
+
+    padding:40px;
+
+    border-radius:20px;
+}
+
+.education-card h3{
+
+    color:var(--text-primary);
+
+    margin-bottom:10px;
+}
+
+.education-card h4{
+
+    color:var(--accent-cyan);
+
+    margin-bottom:10px;
+}
+
+.education-card span{
+
+    color:var(--text-muted);
+
+    display:block;
+
+    margin-bottom:20px;
+}
+
+.education-card p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+}
+
+/* ====================================
+   SKILLS PREVIEW
+==================================== */
+
+.skills-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+}
+
+.skills-tags span{
+
+    padding:12px 20px;
+
+    border-radius:50px;
+
+    background:
+    rgba(34,211,238,0.1);
+
+    border:
+    1px solid rgba(34,211,238,0.2);
+
+    color:var(--accent-cyan);
+
+    transition:0.3s;
+}
+
+.skills-tags span:hover{
+
+    transform:translateY(-3px);
+
+    background:
+    rgba(34,211,238,0.2);
+}
+
+/* ====================================
+   CAREER GOALS
+==================================== */
+
+.goals-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+}
+
+.goal-card{
+
+    background:var(--bg-card);
+
+    border:
+    1px solid var(--border-secondary);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    transition:0.3s;
+}
+
+.goal-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--accent-cyan);
+}
+
+.goal-card h3{
+
+    color:var(--accent-cyan);
+
+    margin-bottom:15px;
+}
+
+.goal-card p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+}
+
+/* ====================================
+   CORE VALUES
+==================================== */
+
+.values-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+}
+
+.value-card{
+
+    background:var(--bg-card);
+
+    border:
+    1px solid var(--border-secondary);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    transition:0.3s;
+}
+
+.value-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--accent-cyan);
+}
+
+.value-card h3{
+
+    color:var(--accent-cyan);
+
+    margin-bottom:15px;
+}
+
+.value-card p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+}
+
+/* ====================================
+   INTERESTS
+==================================== */
+
+.interests-content{
+
+    background:var(--bg-card);
+
+    border:
+    1px solid var(--border-secondary);
+
+    border-radius:20px;
+
+    padding:40px;
+}
+
+.interests-content p{
+
+    color:var(--text-secondary);
+
+    line-height:2;
+}
+
+/* ====================================
+   RESUME CTA
+==================================== */
+
+.resume-cta{
+
+    text-align:center;
+
+    padding:80px 40px;
+
+    background:
+    rgba(255,255,255,0.03);
+
+    border:
+    1px solid rgba(34,211,238,0.15);
+
+    border-radius:20px;
+}
+
+.resume-cta h2{
+
+    font-size:2.5rem;
+
+    margin-bottom:20px;
+}
+
+.resume-cta p{
+
+    max-width:700px;
+
+    margin:0 auto 30px;
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+}
+
+/* ====================================
+   MOBILE
+==================================== */
+
+@media (max-width:768px){
+
+    .banner-content h1{
+
+        font-size:2.8rem;
+    }
+
+    .bio-content,
+    .education-card,
+    .interests-content{
+
+        padding:25px;
+    }
+}

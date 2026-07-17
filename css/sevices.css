@@ -1,0 +1,261 @@
+/* ====================================
+   SERVICES BANNER
+==================================== */
+
+.services-banner{
+
+    text-align:center;
+
+    padding:120px 0 80px;
+}
+
+.services-banner h1{
+
+    font-size:4rem;
+
+    margin-bottom:20px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #ffffff,
+        #22D3EE
+    );
+
+    background-clip:text;
+
+    color:transparent;
+}
+
+.services-banner p{
+
+    max-width:800px;
+
+    margin:auto;
+
+    color:var(--text-secondary);
+
+    line-height:1.9;
+}
+
+/* ====================================
+   WHAT I DO
+==================================== */
+
+.what-i-do{
+
+    text-align:center;
+
+    max-width:900px;
+
+    margin-left:auto;
+
+    margin-right:auto;
+}
+
+.what-i-do p{
+
+    color:var(--text-secondary);
+
+    line-height:2;
+
+    font-size:1.1rem;
+}
+
+/* ====================================
+   SERVICES GRID
+==================================== */
+
+.services-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+}
+
+/* ====================================
+   SERVICE CARD
+==================================== */
+
+.service-card{
+
+    padding:40px 30px;
+
+    background:
+    rgba(255,255,255,0.03);
+
+    border:
+    1px solid rgba(34,211,238,0.15);
+
+    border-radius:20px;
+
+    transition:0.3s;
+}
+
+.service-card:hover{
+
+    transform:
+    translateY(-10px);
+
+    border-color:
+    var(--accent-cyan);
+
+    box-shadow:
+    0 0 30px
+    rgba(34,211,238,0.15);
+}
+
+.service-card h3{
+
+    color:var(--accent-cyan);
+
+    margin-bottom:20px;
+}
+
+.service-card p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+}
+
+/* ====================================
+   LEARNING SUPPORT
+==================================== */
+
+.support-items{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+}
+
+.support-item{
+
+    padding:15px 25px;
+
+    border-radius:50px;
+
+    background:
+    rgba(34,211,238,0.08);
+
+    border:
+    1px solid rgba(34,211,238,0.2);
+
+    color:var(--accent-cyan);
+
+    transition:0.3s;
+}
+
+.support-item:hover{
+
+    transform:
+    translateY(-4px);
+
+    background:
+    rgba(34,211,238,0.15);
+}
+
+/* ====================================
+   WHY WORK WITH ME
+==================================== */
+
+.reasons-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+}
+
+.reason{
+
+    text-align:center;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    background:
+    rgba(255,255,255,0.03);
+
+    border:
+    1px solid rgba(34,211,238,0.15);
+
+    color:var(--text-primary);
+
+    transition:0.3s;
+}
+
+.reason:hover{
+
+    border-color:
+    var(--accent-cyan);
+
+    transform:
+    translateY(-8px);
+}
+
+/* ====================================
+   SERVICES CTA
+==================================== */
+
+.services-cta{
+
+    text-align:center;
+
+    padding:100px 40px;
+
+    border-top:
+    1px solid rgba(34,211,238,0.15);
+
+    border-bottom:
+    1px solid rgba(34,211,238,0.15);
+}
+
+.services-cta h2{
+
+    font-size:2.5rem;
+
+    margin-bottom:20px;
+}
+
+.services-cta p{
+
+    max-width:700px;
+
+    margin:0 auto 30px;
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+}
+
+/* ====================================
+   RESPONSIVE
+==================================== */
+
+@media (max-width:768px){
+
+    .services-banner h1{
+
+        font-size:2.8rem;
+    }
+
+    .services-grid{
+
+        grid-template-columns:1fr;
+    }
+
+    .reasons-grid{
+
+        grid-template-columns:1fr;
+    }
+}

@@ -1,0 +1,297 @@
+/* ====================================
+   PROJECTS BANNER
+==================================== */
+
+.projects-banner{
+
+    text-align:center;
+
+    padding:120px 0 80px;
+}
+
+.page-tag{
+
+    color:var(--accent-cyan);
+
+    letter-spacing:3px;
+
+    font-size:0.9rem;
+
+    margin-bottom:20px;
+}
+
+.banner-content h1{
+
+    font-size:4rem;
+
+    margin-bottom:25px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #ffffff,
+        #22D3EE
+    );
+
+    background-clip:text;
+
+    color:transparent;
+}
+
+.banner-description{
+
+    max-width:800px;
+
+    margin:auto;
+
+    color:var(--text-secondary);
+
+    line-height:1.9;
+}
+
+/* ====================================
+   FEATURED PROJECT
+==================================== */
+
+.featured-project-card{
+
+    display:grid;
+
+    grid-template-columns:
+    2fr 1fr;
+
+    gap:40px;
+
+    padding:50px;
+
+    background:var(--bg-card);
+
+    border:
+    1px solid var(--border-secondary);
+
+    border-radius:20px;
+}
+
+.featured-project-card h3{
+
+    color:var(--accent-cyan);
+
+    font-size:2rem;
+
+    margin-bottom:20px;
+}
+
+.featured-project-card p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+}
+
+/* ====================================
+   PROJECT TAGS
+==================================== */
+
+.project-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-bottom:25px;
+}
+
+.project-tags span{
+
+    padding:8px 18px;
+
+    border-radius:50px;
+
+    background:
+    rgba(34,211,238,0.1);
+
+    color:var(--accent-cyan);
+
+    border:
+    1px solid rgba(34,211,238,0.2);
+}
+
+/* ====================================
+   PROJECT GRID
+==================================== */
+
+.projects-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+    gap:30px;
+}
+
+.project-card{
+
+    padding:35px;
+
+    border-radius:20px;
+
+    background:var(--bg-card);
+
+    border:
+    1px solid var(--border-secondary);
+
+    transition:0.3s;
+}
+
+.project-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--accent-cyan);
+}
+
+.project-card h3{
+
+    color:var(--accent-cyan);
+
+    margin-bottom:15px;
+}
+
+.project-card p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+}
+
+/* ====================================
+   LEARNING LABS
+==================================== */
+
+.labs-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+}
+
+.lab-item{
+
+    padding:25px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+    background:
+    rgba(34,211,238,0.05);
+
+    border:
+    1px solid rgba(34,211,238,0.15);
+
+    color:var(--text-primary);
+
+    transition:0.3s;
+}
+
+.lab-item:hover{
+
+    transform:translateY(-5px);
+
+    border-color:var(--accent-cyan);
+}
+
+/* ====================================
+   FUTURE PROJECTS
+==================================== */
+
+.future-grid{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+}
+
+.future-item{
+
+    padding:25px 30px;
+
+    border-left:
+    4px solid var(--accent-cyan);
+
+    background:
+    rgba(255,255,255,0.03);
+
+    color:var(--text-secondary);
+}
+
+/* ====================================
+   PROJECT CTA
+==================================== */
+
+.projects-cta{
+
+    text-align:center;
+
+    padding:100px 40px;
+
+    border-top:
+    1px solid rgba(34,211,238,0.15);
+
+    border-bottom:
+    1px solid rgba(34,211,238,0.15);
+}
+
+.projects-cta h2{
+
+    font-size:2.5rem;
+
+    margin-bottom:20px;
+}
+
+.projects-cta p{
+
+    max-width:700px;
+
+    margin:0 auto 30px;
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+}
+
+/* ====================================
+   RESPONSIVE
+==================================== */
+
+@media (max-width:900px){
+
+    .featured-project-card{
+
+        grid-template-columns:1fr;
+    }
+
+    .projects-grid{
+
+        grid-template-columns:1fr;
+    }
+}
+
+@media (max-width:768px){
+
+    .banner-content h1{
+
+        font-size:2.8rem;
+    }
+}
+

@@ -1,0 +1,160 @@
+/* ====================================
+   CONTACT BANNER
+==================================== */
+
+.contact-banner{
+
+    text-align:center;
+
+    padding:120px 0 80px;
+}
+
+.contact-banner h1{
+
+    font-size:4rem;
+
+    margin-bottom:20px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #ffffff,
+        #22D3EE
+    );
+
+    background-clip:text;
+
+    color:transparent;
+}
+
+.contact-banner p{
+
+    max-width:800px;
+
+    margin:auto;
+
+    color:var(--text-secondary);
+
+    line-height:1.9;
+}
+
+/* ====================================
+   CONTACT INFO
+==================================== */
+
+.info-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+}
+
+.info-card{
+
+    text-align:center;
+
+    padding:35px;
+
+    background:
+    rgba(255,255,255,0.03);
+
+    border:
+    1px solid rgba(34,211,238,0.15);
+
+    border-radius:20px;
+}
+
+.info-card h3{
+
+    color:var(--accent-cyan);
+
+    margin-bottom:15px;
+}
+
+/* ====================================
+   CONTACT FORM
+==================================== */
+
+.contact-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    max-width:800px;
+
+    margin:auto;
+}
+
+.contact-form textarea{
+
+    resize:vertical;
+}
+
+/* ====================================
+   SOCIAL LINKS
+==================================== */
+
+.social-grid{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+}
+
+.social-grid a{
+
+    padding:15px 25px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    color:var(--accent-cyan);
+
+    border:
+    1px solid rgba(34,211,238,0.2);
+}
+
+/* ====================================
+   AVAILABILITY
+==================================== */
+
+.availability-card{
+
+    text-align:center;
+
+    padding:60px;
+
+    border-radius:20px;
+
+    background:
+    rgba(255,255,255,0.03);
+
+    border:
+    1px solid rgba(34,211,238,0.15);
+}
+
+/* ====================================
+   CONTACT CTA
+==================================== */
+
+.contact-cta{
+
+    text-align:center;
+
+    padding:100px 40px;
+}
+
+.contact-cta h2{
+
+    margin-bottom:20px;
+}
+
