@@ -150,6 +150,10 @@ main{
     color:var(--accent-cyan);
 }
 
+.nav-links.active {
+    display: flex;
+}
+
 /* ====================================
    HERO SECTION
 ==================================== */
@@ -738,4 +742,28 @@ footer{
     1px solid rgba(255,255,255,0.05);
 
     color:var(--text-muted);
+}
+
+
+@media (max-width:768px){
+
+    .navbar{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .logo{
+        display:flex;
+        align-items:center;
+        gap:15px;
+    }
+
+    .menu-toggle{
+        display:block;
+        font-size:2rem;
+        cursor:pointer;
+        margin-right:10px;
+    }
+
 }
