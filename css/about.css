@@ -1,30 +1,36 @@
 /* ====================================
-   ABOUT BANNER
+   ABOUT HEADER
 ==================================== */
 
 .about-banner{
 
     text-align:center;
 
-    padding:120px 20px 80px;
+    padding:20px 20px 30px;
+
+    margin-top:0;
 }
 
 .page-tag{
 
     color:var(--accent-cyan);
 
-    letter-spacing:3px;
+    letter-spacing:4px;
 
-    font-size:0.9rem;
+    font-size:0.85rem;
 
-    margin-bottom:20px;
+    margin-bottom:10px;
+
+    text-transform:uppercase;
 }
 
 .banner-content h1{
 
-    font-size:4rem;
+    font-size:clamp(2.5rem,6vw,4rem);
 
-    margin-bottom:25px;
+    margin-bottom:15px;
+
+    line-height:1.1;
 
     background:
     linear-gradient(
@@ -33,6 +39,8 @@
         #22D3EE
     );
 
+    -webkit-background-clip:text;
+
     background-clip:text;
 
     color:transparent;
@@ -40,17 +48,16 @@
 
 .banner-description{
 
-    max-width:800px;
+    max-width:700px;
 
     margin:auto;
 
     color:var(--text-secondary);
 
-    line-height:1.9;
+    line-height:1.7;
 
-    font-size:1.1rem;
+    font-size:1rem;
 }
-
 /* ====================================
    BIOGRAPHY
 ==================================== */

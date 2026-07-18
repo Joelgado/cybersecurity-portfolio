@@ -784,3 +784,110 @@ footer{
 }
 
 
+@media (max-width:768px){
+
+    .navbar{
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        gap:15px;
+        padding:15px 5%;
+    }
+
+    .menu-toggle{
+        display:block;
+        font-size:2rem;
+        cursor:pointer;
+        margin:0;
+    }
+
+    .logo{
+        display:flex;
+        align-items:center;
+        margin:0;
+    }
+
+}
+
+
+/* Reduce banner height */
+.page-banner,
+.about-banner,
+.projects-banner,
+.contact-banner,
+.services-banner{
+
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 0;
+}
+
+
+.page-banner,
+.about-banner,
+.projects-banner,
+.contact-banner,
+.services-banner{
+
+    padding: 20px 0;
+}
+
+@media (max-width:768px){
+
+    .page-banner,
+    .about-banner,
+    .projects-banner,
+    .contact-banner,
+    .services-banner{
+
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+}
+
+.page-banner h1,
+.about-banner h1,
+.projects-banner h1{
+
+    margin-bottom: 10px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap:20px;
+}
+
+.navbar{
+    padding:20px 2%;
+}
+
+.navbar{
+
+    display:flex;
+
+    align-items:center;
+
+    padding:20px 5%;
+}
+
+.logo{
+
+    margin-right:auto;
+}
+
+nav{
+
+    margin-left:auto;
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:35px;
+
+    list-style:none;
+}

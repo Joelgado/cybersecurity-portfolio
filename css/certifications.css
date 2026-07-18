@@ -1,19 +1,21 @@
 /* ====================================
-   CERTIFICATIONS BANNER
+   CERTIFICATIONS HEADER
 ==================================== */
 
 .cert-banner{
 
     text-align:center;
 
-    padding:120px 0 80px;
+    padding:20px 0 30px;
+
+    margin-top:0;
 }
 
 .cert-banner h1{
 
-    font-size:4rem;
+    font-size:clamp(2.5rem,6vw,4rem);
 
-    margin-bottom:20px;
+    margin-bottom:10px;
 
     background:
     linear-gradient(
@@ -22,22 +24,25 @@
         #22D3EE
     );
 
+    -webkit-background-clip:text;
+
     background-clip:text;
 
     color:transparent;
+
+    line-height:1.1;
 }
 
 .cert-banner p{
 
-    max-width:800px;
+    max-width:700px;
 
     margin:auto;
 
     color:var(--text-secondary);
 
-    line-height:1.9;
+    line-height:1.7;
 }
-
 /* ====================================
    FEATURED CERTIFICATION
 ==================================== */
@@ -337,4 +342,33 @@
 
         font-size:3rem;
     }
+}
+
+
+
+/* Reduce banner height */
+.page-banner,
+.about-banner,
+.projects-banner,
+.contact-banner,
+.services-banner{
+
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 0;
+}
+
+
+@media (max-width:768px){
+
+    .page-banner,
+    .about-banner,
+    .projects-banner,
+    .contact-banner,
+    .services-banner{
+
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
 }
