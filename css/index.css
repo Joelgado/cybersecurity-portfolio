@@ -438,3 +438,74 @@
 
     transform: translateY(-3px);
 }
+
+/* ====================================
+   WHY HIRE ME
+==================================== */
+
+.why-hire-me{
+
+    margin-top:100px;
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+}
+
+.why-card{
+
+    background:rgba(255,255,255,0.03);
+
+    border:1px solid rgba(34,211,238,0.15);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    transition:0.3s;
+}
+
+.why-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--accent-cyan);
+}
+
+.why-card h3{
+
+    color:var(--accent-cyan);
+
+    margin-bottom:15px;
+}
+
+.why-card p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+}
+
+
+/*=========portfolio profile picture=======*/
+.profile-photo{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--accent-cyan);
+    box-shadow: 0 0 25px rgba(0,255,255,0.3);
+}
+
+.profile-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
